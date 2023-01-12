@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{32372B7B-8264-4FA2-B14C-47C16B09F601}"
+	ProjectSection(SolutionItems) = preProject
+		src\docker-compose.yaml = src\docker-compose.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{6978D44E-C2D8-4D92-BCD3-6A1959C52056}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A7D40DF0-1647-4E97-B82B-257A0722E19D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coffee.Api", "src\Services\Coffee\Coffee.Api\Coffee.Api.csproj", "{77CB3B0E-134D-45C9-AD4C-A24BEFEBAB9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tea.Api", "src\Services\Tea\Tea.Api\Tea.Api.csproj", "{D3AC667A-6354-4BCA-BA6E-BF8DB564456E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77CB3B0E-134D-45C9-AD4C-A24BEFEBAB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77CB3B0E-134D-45C9-AD4C-A24BEFEBAB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77CB3B0E-134D-45C9-AD4C-A24BEFEBAB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77CB3B0E-134D-45C9-AD4C-A24BEFEBAB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3AC667A-6354-4BCA-BA6E-BF8DB564456E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3AC667A-6354-4BCA-BA6E-BF8DB564456E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3AC667A-6354-4BCA-BA6E-BF8DB564456E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3AC667A-6354-4BCA-BA6E-BF8DB564456E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6978D44E-C2D8-4D92-BCD3-6A1959C52056} = {32372B7B-8264-4FA2-B14C-47C16B09F601}
+		{A7D40DF0-1647-4E97-B82B-257A0722E19D} = {32372B7B-8264-4FA2-B14C-47C16B09F601}
+		{77CB3B0E-134D-45C9-AD4C-A24BEFEBAB9F} = {A7D40DF0-1647-4E97-B82B-257A0722E19D}
+		{D3AC667A-6354-4BCA-BA6E-BF8DB564456E} = {A7D40DF0-1647-4E97-B82B-257A0722E19D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DC4D28F-30A2-44C2-98A5-1D6B31B81B85}
+	EndGlobalSection
+EndGlobal
